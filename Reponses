@@ -1,0 +1,5 @@
+1 Le client dispose d'une imprimante qui possède trois fonctionnalités qui ne marchent pas (car considérées comme inutiles) mais sont quand meme disponibles et feront planter le programme si elles sont utilisées
+
+2 La modification n'aura pas d'impact sur simple printer, le programme plante toujours lors de l'appel a fax()
+
+3 Pour résoudre le problème il faut créer une interface par fonctionnalité, et si on a besoin d'une imprimante un peu plus perfectionnée elle implémentera plusieurs interfaces
